@@ -1,0 +1,6 @@
+{
+  "name": "The Aesthetic Junction",
+  "description": "An award-winning aesthetic clinic in Okara where beauty meets science and self-care is elevated to an art form.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
