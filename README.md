@@ -1,20 +1,23 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# The Aesthetic Junction
 
-# Run and deploy your AI Studio app
+Marketing website for **The Aesthetic Junction**, an aesthetic/cosmetic clinic in Okara — built with React + TypeScript + Vite + Tailwind CSS v4 + Motion (Framer Motion).
 
-This contains everything you need to run your app locally.
+## Run locally
 
-View your app in AI Studio: https://ai.studio/apps/c62744bd-bb5c-42fe-b5db-8a411802517a
+```bash
+npm install
+npm run dev      # http://localhost:3000
+```
 
-## Run Locally
+## Build for hosting
 
-**Prerequisites:**  Node.js
+```bash
+npm run build
+```
 
+Upload the contents of `dist/` to any static host (Vercel, Netlify, GitHub Pages, or shared hosting) — no backend or API key required.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Structure
+
+- `src/App.tsx` — the entire site.
+- `src/index.css` — Tailwind entry point.
