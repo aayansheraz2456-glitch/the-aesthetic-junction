@@ -4,11 +4,11 @@ import { Sparkles, Clock, Calendar, Check, ArrowRight, X, Phone, ShieldCheck, He
 // ==========================================
 // IMAGE URLS (Optimized WebP, loaded locally for instant high-performance rendering)
 // ==========================================
-const HERO_IMAGE = '/hero.webp';
-const SECTION2_IMAGE = '/gallery-facial.webp';
-const SECTION3_IMG1 = '/regenerative.webp';
-const SECTION3_IMG2 = '/lab.webp';
-const SECTION3_BG = '/botox.webp';
+const HERO_IMAGE = 'hero.webp';
+const SECTION2_IMAGE = 'gallery-facial.webp';
+const SECTION3_IMG1 = 'regenerative.webp';
+const SECTION3_IMG2 = 'lab.webp';
+const SECTION3_BG = 'botox.webp';
 
 // ==========================================
 // DATA CONSTANTS
@@ -33,7 +33,7 @@ const CORE_SERVICES = [
     category: 'Injectables',
     tag: 'Anti-Aging & Sculpting',
     desc: 'Restore youthful volume, soften expressions, and redefine facial contours with our expert, high-precision injectables.',
-    image: '/botox.webp',
+    image: 'botox.webp',
     duration: '30 - 45 Mins',
     downtime: 'Minimal (0-24 Hours)',
     benefits: [
@@ -50,7 +50,7 @@ const CORE_SERVICES = [
     category: 'Lasers',
     tag: 'Advanced Laser Center',
     desc: 'Experience high-precision CO2 resurfacing, pain-free hair removal, and revolutionary Pico laser pigmentation removal.',
-    image: '/laser.webp',
+    image: 'laser.webp',
     duration: '15 - 60 Mins',
     downtime: 'Varies (None to 3 Days)',
     benefits: [
@@ -67,7 +67,7 @@ const CORE_SERVICES = [
     category: 'Facials & Skincare',
     tag: 'Deep Skin Revitalization',
     desc: 'Deep cleanse, extract, hydrate, and nourish with our advanced HydraFacial regimens, exosome boosters, and microneedling.',
-    image: '/gallery-facial.webp',
+    image: 'gallery-facial.webp',
     duration: '45 - 75 Mins',
     downtime: 'None (Immediate Glow)',
     benefits: [
@@ -84,7 +84,7 @@ const CORE_SERVICES = [
     category: 'Regenerative',
     tag: 'Regenerative Science',
     desc: 'Harness the power of your body’s growth factors and tailored vitamin cocktails to stimulate natural hair and skin rejuvenation.',
-    image: '/regenerative.webp',
+    image: 'regenerative.webp',
     duration: '45 - 60 Mins',
     downtime: '12 - 24 Hours',
     benefits: [
@@ -348,7 +348,7 @@ const SplashScreen = ({ onComplete }: { onComplete: () => void }) => {
 const Logo = () => {
   return (
     <img
-      src="/logo.png"
+      src="logo.png"
       alt="Aesthetic Junction"
       className="h-14 md:h-20 object-contain shrink-0 mix-blend-multiply"
     />
@@ -1185,7 +1185,7 @@ export default function App() {
           <div className="flex flex-col gap-4">
             <div className="bg-white p-2 rounded-2xl w-max flex items-center justify-center shadow-lg">
               <img
-                src="/logo.png"
+                src="logo.png"
                 alt="Aesthetic Junction"
                 className="h-16 md:h-20 object-contain mix-blend-multiply"
               />
